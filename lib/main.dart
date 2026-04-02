@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 0, 0, 0),
+          seedColor: Color.fromARGB(255, 255, 0, 0),
         ),
       ),
       home: const MyHomePage(title: 'Atividade'),
@@ -43,12 +43,12 @@ class _MyHomePageState extends State<MyHomePage> {
           style: ElevatedButton.styleFrom(
             shape: CircleBorder(),
             padding: EdgeInsets.all(150),
-            backgroundColor: Color.fromARGB(255, 0, 255, 64),
+            backgroundColor: Color.fromARGB(255, 255, 230, 0),
           ),
           child: const Text(
             'Botão Circulo',
             maxLines: 2,
-            style: TextStyle(fontSize: 12, color: Color.fromARGB(255, 230, 8, 8)),
+            style: TextStyle(fontSize: 12, color: Color.fromARGB(255, 217, 255, 0)),
           ),
         ),
       ),
